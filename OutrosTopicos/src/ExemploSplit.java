@@ -10,9 +10,9 @@ public class ExemploSplit {
 
         System.out.println("mensagem original: " + s);
         System.out.println("Após o uso do split");
-        System.out.println("palavra 1: " + vetor[0]);
-        System.out.println("palavra 2: " + vetor[1]);
-        System.out.println("palavra 3: " + vetor[2]);
+        System.out.println("palavra 1: " + palavra1);
+        System.out.println("palavra 2: " + palavra2);
+        System.out.println("palavra 3: " + palavra3);
     }
     
 }

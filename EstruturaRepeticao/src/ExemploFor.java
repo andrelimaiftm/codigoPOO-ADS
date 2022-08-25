@@ -12,6 +12,7 @@ public class ExemploFor {
         System.out.print("Digite a quantidade de elementos que deseja receber: ");
         valor = sc.nextInt();
 
+        //i++ => i = i+1;
         for (int i = 0; i < valor; i++) {
             System.out.print("Digite um numero inteiro: ");
             int numero = sc.nextInt();

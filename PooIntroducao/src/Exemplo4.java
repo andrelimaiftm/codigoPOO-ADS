@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 import utils.Calculadora;
 
-//versão 1
+//versão 2
 public class Exemplo4 {    
 
     public static void main(String[] args) {

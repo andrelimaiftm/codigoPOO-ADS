@@ -26,13 +26,15 @@ public class Exemplo1 {
         double areaX = x.area();
         double areaY = y.area();
 
+        double maior = x.comparaAreaTriangulo(areaX, areaY);
 
         if(areaX > areaY){
             System.out.println("Trinagulo X possui maior area");
-        }else{
+        }else if (areaY > areaX){
             System.out.println("Trinagulo Y possui maior area");
-        }
-        
+        }else{
+            System.out.println("area dos triangulos são iguais");
+        }        
         sc.close();
     }    
 }

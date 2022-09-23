@@ -19,6 +19,7 @@ public class Produto {
     public Produto(String nome, double preco){
         this.nome = nome;
         this.preco = preco;
+        //this.quantidade = 10;
     }
     
     public double valorTotalEstoque(){
